@@ -1,0 +1,19 @@
+{
+  "name": "modulekit-hooks",
+  "version": "0.1.0",
+  "description": "Hooks (JS, PHP)",
+  "main": "hooks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plepe/modulekit-hooks.git"
+  },
+  "author": "Stephan Bösch-Plepelits <skunk@xover.mud.at>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/plepe/modulekit-hooks/issues"
+  },
+  "homepage": "https://github.com/plepe/modulekit-hooks#readme"
+}
