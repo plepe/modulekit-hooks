@@ -147,6 +147,12 @@ function unregister_hooks_object(ob) {
   delete(hooks_object_hooks[p]);
 }
 
+if (global.hooks_intern) {
+  hooks_intern = global.hooks_intern
+  hooks_object_objects = global.hooks_object_objects
+  hooks_object_hooks = global.hooks_object_hooks
+}
+
 // nodejs compatibility
 if((typeof(module)!="undefined")&&module.exports) {
   module.exports.call=call_hooks;
