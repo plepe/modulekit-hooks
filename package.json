@@ -1,6 +1,6 @@
 {
   "name": "modulekit-hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hooks (JS, PHP)",
   "main": "hooks.js",
   "scripts": {
